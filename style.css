@@ -146,28 +146,20 @@ body{
         
     }
 }
-@media (min-width: 768px) {
-    .content  {
-        width: 90px;
-        font-size: 14px;
-    }
-}
 
 @media (max-width: 768px) {
     .result-details li {
-        display: flex;
-        flex-direction: row;
         margin-bottom: 10px;
     }
 }
 @media (max-width: 768px) {
-    .content {
-        display: flex;
+     .content button {
+        width: 90px;
+        font-size: 14px;
     }
 }
 @media (max-width: 768px) {
     .result-details {
-        display: flex;
         flex-direction: column;
     }
 }
