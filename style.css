@@ -137,3 +137,42 @@ body{
     font-size: 20px;
     margin-left: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        
+    }
+}
+@media (min-width: 768px) {
+    .content  {
+        width: 90px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .result-details li {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .result-details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .result-details li span {
+        font-size: 16px;
+    }
+}
